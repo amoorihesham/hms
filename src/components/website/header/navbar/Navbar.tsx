@@ -11,7 +11,6 @@ const Navbar = () => {
           alt='Medica Pluse HMS'
           width={64}
           height={100}
-          className='object-contain'
         />
       </div>
       <div className='flex items-center gap-14'>
@@ -21,6 +20,9 @@ const Navbar = () => {
             {...item}
           />
         ))}
+        {/* Lang Switch BTN */}
+        {/* Book Appointment BTN */}
+        {/* Login BTN */}
       </div>
     </nav>
   );

@@ -5,6 +5,9 @@ export default {
   content: ['./src/pages/**/*.{js,ts,jsx,tsx,mdx}', './src/components/**/*.{js,ts,jsx,tsx,mdx}', './src/app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Ubuntu', 'serif'],
+      },
       colors: {
         CLR_primary: '#FF9F66',
         CLR_darkBlue: '#131A47',
